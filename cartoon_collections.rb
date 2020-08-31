@@ -11,7 +11,7 @@ end
 def long_planeteer_calls(five)
   if five.any?(/\w{5,}/)
     return true
-  elsif x.all?(/\b\w{1,4}\b/)
+  elsif five.all?(/\b\w{1,4}\b/)
     return false
   end
 end
