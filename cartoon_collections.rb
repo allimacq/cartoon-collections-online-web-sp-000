@@ -12,7 +12,7 @@ def long_planeteer_calls(five)
    five.each do |x|
     if x.match(/\w{5,}/)
       return true
-    elsif x.match(/\w{0,4}/)
+    elsif x.match(/\b\w{0,4}/)
       return true
     end
   end
