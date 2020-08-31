@@ -13,7 +13,7 @@ def long_planeteer_calls(five)
     if x.match(/\b\w{5,}\b/)
       return true
     elsif x.match(/\b\w{0,4}\b/)
-      return true
+      return false
     end
   end
 end
