@@ -9,12 +9,10 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(five)
-   five.each do |x|
-    if x.any?(/\w{5,}/)
-      return true
-    elsif x.all?(/\b\w{1,4}\b/)
-      return false
-    end
+  if five.any?(/\w{5,}/)
+    return true
+  elsif x.all?(/\b\w{1,4}\b/)
+    return false
   end
 end
 
