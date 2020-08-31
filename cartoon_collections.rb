@@ -22,7 +22,7 @@ def find_the_cheese(list)
     if list.include?(x)
       return x
     else
-      return false
+      return nil
     end
   end
 end
