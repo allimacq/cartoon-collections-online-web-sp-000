@@ -16,7 +16,7 @@ def long_planeteer_calls(five)
   end
 end
 
-def find_the_cheese#(list)
+def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese.each do |x|
     if list.include?(x)
